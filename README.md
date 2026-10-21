@@ -1,9 +1,9 @@
-# Ankit Choudhary · GitHub Pages gateway
+# Ankit Choudhary · Engineering resume
 
-This repository hosts the lightweight developer-facing entry point at `ankit180396.github.io`.
+This repository hosts the light, recruiter-friendly resume experience at `ankit180396.github.io`.
 
 The canonical, interactive portfolio is hosted at:
 
 <https://ankit-choudhary-portfolio.vercel.app>
 
-Keeping this site intentionally small prevents two full portfolios from drifting out of sync. It provides a fast introduction, role-based skill explorer, and direct links to the canonical case studies, AI assistant, GitHub profile, LinkedIn, and email.
+This site is intentionally optimized for fast scanning, print-friendly career history, role-based skills, and direct contact. The Vercel site remains the richer interactive portfolio with detailed case studies and the grounded AI assistant.
