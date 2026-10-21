@@ -3,38 +3,63 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#07111b" />
+    <meta name="theme-color" content="#f4f7f9" />
     <meta
       name="description"
-      content="Developer profile for Ankit Choudhary, a senior software and applied AI engineer working across Python, APIs, data platforms, and production AI."
+      content="Resume and engineering snapshot for Ankit Choudhary, a senior software and applied AI engineer working across Python, APIs, data platforms, and production AI."
     />
-    <link rel="canonical" href="https://ankit-choudhary-portfolio.vercel.app" />
+    <link rel="canonical" href="https://ankit180396.github.io/" />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
-    <title>Ankit Choudhary | Developer Profile</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Ankit Choudhary",
+        "url": "https://ankit180396.github.io/",
+        "jobTitle": "Senior Software and Applied AI Engineer",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Tampa",
+          "addressRegion": "FL"
+        },
+        "alumniOf": {
+          "@type": "CollegeOrUniversity",
+          "name": "University of South Florida"
+        },
+        "sameAs": [
+          "https://github.com/ankit180396",
+          "https://www.linkedin.com/in/ankit-choudhary1803/"
+        ]
+      }
+    </script>
+    <title>Ankit Choudhary | Engineering Resume</title>
   </head>
   <body>
-    <div class="pageGlow" aria-hidden="true"></div>
-    <header>
+    <div class="pageTexture" aria-hidden="true"></div>
+
+    <header class="siteHeader">
       <a class="brand" href="#top" aria-label="Ankit Choudhary, back to top">
         <span>AC</span>
         <strong>Ankit Choudhary</strong>
       </a>
-      <nav aria-label="Profile links">
-        <a href="https://github.com/ankit180396">GitHub</a>
-        <a href="https://www.linkedin.com/in/ankit-choudhary1803/">LinkedIn</a>
-        <a class="navCta" href="https://ankit-choudhary-portfolio.vercel.app">Full portfolio ↗</a>
+      <nav aria-label="Resume navigation">
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="https://github.com/ankit180396" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/ankit-choudhary1803/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a class="navCta" href="https://ankit-choudhary-portfolio.vercel.app">Interactive portfolio <span>↗</span></a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero">
+      <section class="hero" aria-labelledby="hero-title">
         <div class="heroCopy">
           <p class="eyebrow"><span></span> Senior Software Engineer · Applied AI</p>
-          <h1>Code, systems, and AI built for <em>real-world use.</em></h1>
+          <h1 id="hero-title">Engineering systems that turn complexity into <em>measurable outcomes.</em></h1>
           <p class="lead">
-            I build production APIs, data platforms, and AI-enabled workflows with
-            Python, FastAPI, C#/.NET, SQL, Azure, and AWS.
+            Seven-plus years building production APIs, data platforms, and AI-enabled
+            workflows with Python, FastAPI, C#/.NET, SQL, Azure, and AWS.
           </p>
           <div class="actions">
             <a class="primary" href="https://ankit-choudhary-portfolio.vercel.app">
@@ -42,16 +67,21 @@
             </a>
             <a class="secondary" href="mailto:ankit.er1803@gmail.com">Email me</a>
           </div>
-          <p class="location"><i></i>Tampa, FL · Open to relocation</p>
+          <dl class="quickFacts" aria-label="Profile highlights">
+            <div><dt>Experience</dt><dd>7+ years</dd></div>
+            <div><dt>Location</dt><dd>Tampa, FL</dd></div>
+            <div><dt>Education</dt><dd>MS, USF</dd></div>
+            <div><dt>Mobility</dt><dd>Open to relocation</dd></div>
+          </dl>
         </div>
 
         <figure class="profileVisual">
           <div class="photoFrame">
             <img
-              src="ankit-headshot.webp"
+              src="ankit-headshot-v2.webp"
               alt="Ankit Choudhary"
-              width="812"
-              height="1000"
+              width="900"
+              height="1125"
               fetchpriority="high"
               decoding="async"
             />
@@ -66,16 +96,82 @@
         </figure>
       </section>
 
+      <section class="resumeSection" id="experience" aria-labelledby="experience-title">
+        <div class="sectionIntro splitIntro">
+          <div>
+            <p class="eyebrow"><span></span> Career snapshot</p>
+            <h2 id="experience-title">From Python automation to production AI ownership.</h2>
+          </div>
+          <p>
+            Experience spanning hands-on software engineering, data platforms, applied
+            machine learning, cloud delivery, and business-facing solution design.
+          </p>
+        </div>
+
+        <div class="careerList">
+          <article class="careerItem">
+            <div class="careerMeta">
+              <span>2026 · Most recent</span>
+              <h3>Blue Purpose</h3>
+              <p>AI Software Engineer</p>
+            </div>
+            <div class="careerBody">
+              <p>Built healthcare applications, AI-assisted documentation, APIs, asynchronous jobs, and cloud workflows across Python and .NET.</p>
+              <ul><li>80%+ less manual documentation</li><li>1,500 users</li><li>14 organizations</li></ul>
+            </div>
+          </article>
+
+          <article class="careerItem">
+            <div class="careerMeta">
+              <span>2025 to 2026</span>
+              <h3>ClinDCast</h3>
+              <p>Data Engineer / AI Engineer</p>
+            </div>
+            <div class="careerBody">
+              <p>Developed healthcare data ingestion, validation, transformation, APIs, and analytics using Python, SQL, AWS Lambda, S3, and Redshift.</p>
+              <ul><li>60% less manual QA</li><li>Nearly 3× faster reporting</li></ul>
+            </div>
+          </article>
+
+          <article class="careerItem">
+            <div class="careerMeta">
+              <span>2022 to 2023</span>
+              <h3>Ernst &amp; Young</h3>
+              <p>Business Consultant / Software &amp; Data Engineer</p>
+            </div>
+            <div class="careerBody">
+              <p>Delivered enterprise software, ML, automation, and analytical solutions from requirements through production.</p>
+              <ul><li>About $30M business impact</li><li>About $1M automation savings</li></ul>
+            </div>
+          </article>
+
+          <article class="careerItem">
+            <div class="careerMeta">
+              <span>2018 to 2022</span>
+              <h3>Trident Analytical Solutions</h3>
+              <p>Python Developer</p>
+            </div>
+            <div class="careerBody">
+              <p>Built Python applications, reusable backend components, REST APIs, and high-volume data-processing systems.</p>
+              <ul><li>1+ TB workloads</li><li>Parallel processing</li><li>Testing and CI/CD</li></ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
       <section class="roleExplorer" aria-labelledby="role-title">
-        <div class="sectionIntro">
-          <p class="eyebrow"><span></span> Quick recruiter view</p>
-          <h2 id="role-title">Explore the part of my background most relevant to your role.</h2>
+        <div class="sectionIntro splitIntro">
+          <div>
+            <p class="eyebrow"><span></span> Quick recruiter view</p>
+            <h2 id="role-title">Explore the background most relevant to your role.</h2>
+          </div>
+          <p>Choose a focus to see the engineering strengths and technologies most relevant to that hiring need.</p>
         </div>
         <div class="explorerShell">
           <div class="roleTabs" role="tablist" aria-label="Engineering focus">
-            <button id="tab-ai" role="tab" aria-selected="true" aria-controls="role-detail" data-role="ai">Applied AI</button>
-            <button id="tab-backend" role="tab" aria-selected="false" aria-controls="role-detail" data-role="backend">Backend</button>
-            <button id="tab-data" role="tab" aria-selected="false" aria-controls="role-detail" data-role="data">Data platforms</button>
+            <button id="tab-ai" type="button" role="tab" aria-selected="true" aria-controls="role-detail" tabindex="0" data-role="ai">Applied AI</button>
+            <button id="tab-backend" type="button" role="tab" aria-selected="false" aria-controls="role-detail" tabindex="-1" data-role="backend">Backend</button>
+            <button id="tab-data" type="button" role="tab" aria-selected="false" aria-controls="role-detail" tabindex="-1" data-role="data">Data platforms</button>
           </div>
           <article id="role-detail" role="tabpanel" aria-labelledby="tab-ai" aria-live="polite">
             <span class="roleNumber">01</span>
@@ -87,17 +183,37 @@
                 <span>LLMs</span><span>RAG</span><span>LangGraph</span><span>Azure OpenAI</span>
               </div>
             </div>
-            <a href="https://ankit-choudhary-portfolio.vercel.app/#work">View case studies ↗</a>
+            <a href="https://ankit-choudhary-portfolio.vercel.app/#work">View case studies <span>↗</span></a>
           </article>
+        </div>
+      </section>
+
+      <section class="skillsSection" id="skills" aria-labelledby="skills-title">
+        <div class="sectionIntro splitIntro">
+          <div>
+            <p class="eyebrow"><span></span> Core capabilities</p>
+            <h2 id="skills-title">Broad enough to connect the system, deep where it counts.</h2>
+          </div>
+          <p>A production-focused stack across service development, applied AI, data engineering, cloud platforms, and software delivery.</p>
+        </div>
+        <div class="skillsGrid">
+          <article><span>01</span><h3>Languages &amp; APIs</h3><p>Python, SQL, TypeScript, JavaScript, C#, FastAPI, Flask, REST, microservices</p></article>
+          <article><span>02</span><h3>Applied AI &amp; ML</h3><p>LLMs, RAG, Azure OpenAI, LangGraph, LangChain, MCP, scikit-learn, PyTorch</p></article>
+          <article><span>03</span><h3>Data &amp; cloud</h3><p>Azure, AWS, Databricks, PySpark, SQL Server, PostgreSQL, Docker, CI/CD</p></article>
+          <article><span>04</span><h3>Engineering practice</h3><p>System design, async workflows, testing, observability, Git, Agile delivery</p></article>
+        </div>
+        <div class="educationBand">
+          <div><span>Education</span><strong>MS, Business Analytics &amp; Information Systems</strong><p>University of South Florida · 2025 · GPA 3.87</p></div>
+          <div><span>Foundation</span><strong>B.Tech, Electronics &amp; Communication Engineering</strong><p>Krishna Engineering College · 2017</p></div>
         </div>
       </section>
 
       <section class="codeProof" aria-labelledby="proof-title">
         <div>
           <p class="eyebrow"><span></span> Code as evidence</p>
-          <h2 id="proof-title">The full portfolio is also the flagship engineering sample.</h2>
+          <h2 id="proof-title">The interactive portfolio is also a working engineering sample.</h2>
           <p>
-            Its source demonstrates a typed Next.js architecture, deterministic knowledge
+            Its source demonstrates typed Next.js architecture, deterministic knowledge
             retrieval, server-side AI streaming, validation, tests, CI, SEO, and graceful failure.
           </p>
         </div>
@@ -110,14 +226,14 @@
   quality: [<q>tests</q>, <q>types</q>, <q>CI</q>],
   principle: <q>proof over buzzwords</q>
 };</code></pre>
-          <a href="https://github.com/ankit180396/ankit-portfolio">Review the source ↗</a>
+          <a href="https://github.com/ankit180396/ankit-portfolio" target="_blank" rel="noreferrer">Review the source <span>↗</span></a>
         </div>
       </section>
     </main>
 
     <footer>
       <div class="brand"><span>AC</span><strong>Ankit Choudhary</strong></div>
-      <p>This lightweight GitHub Pages profile points to the canonical interactive portfolio.</p>
+      <p>Résumé overview · Tampa, Florida · Open to relocation</p>
       <a href="mailto:ankit.er1803@gmail.com">ankit.er1803@gmail.com</a>
     </footer>
   </body>
